@@ -9,7 +9,8 @@
 /coverage
 
 # production
-/build
+#메인화면 안보이는 이슈로 일단 주석처리해봄 25.08.07
+#/build
 
 # misc
 .DS_Store
