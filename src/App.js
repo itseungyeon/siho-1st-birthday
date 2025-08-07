@@ -1,9 +1,14 @@
-import './App.css';
+import React from "react";
+import CoverSection from "./components/CoverSection";
+import GreetingSection from "./components/GreetingSection";
 
 function App() {
   return (
-    <div className="bg-blue-500 p-10 text-center">
-      <h1 className="text-6xl font-extrabold text-white">🎂시호의 첫번째 생일파티에 초대합니다!!!!!!🎂</h1>
+    <div className="bg-white text-black min-h-screen font-sans">
+      <div className="max-w-md mx-auto px-4 py-6 grid gap-8">
+        <CoverSection />
+        <GreetingSection />
+      </div>
     </div>
   );
 }
