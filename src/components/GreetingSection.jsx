@@ -10,14 +10,14 @@ const GreetingSection = () => {
       <div className="mt-4">
         <p>
           📞 아빠:{"이현재"}
-          <a href="tel:010-5337-9264" className="text-blue-600 underline">
-            010-1234-5678
+          <a href="tel:010-4082-6691" className="text-blue-600 underline">
+            010-4082-6691
           </a>
         </p>
         <p>
           📞 엄마:{"이승연"}
           <a href="tel:010-5337-9264" className="text-blue-600 underline">
-            010-8765-4321
+            010-5337-9264
           </a>
         </p>
       </div>
