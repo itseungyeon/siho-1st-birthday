@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { useSwipeable } from "react-swipeable";
 
-// 9개 사진 임포트
 import photo1 from "../assets/images/photo1.jpg";
 import photo2 from "../assets/images/photo2.jpg";
 import photo3 from "../assets/images/photo3.jpg";
@@ -24,7 +23,6 @@ const images = [
   photo9,
 ];
 
-// 이하 기존 코드 동일 (생략 가능)
 export default function GalleryGrid() {
   const [modalOpen, setModalOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -85,7 +83,8 @@ export default function GalleryGrid() {
         추억 갤러리
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      {/* 모바일 포함 전체 화면 3열 격자, 최대 너비 400px 정도로 제한, 중앙정렬 */}
+      <div className="grid grid-cols-3 gap-4 max-w-md mx-auto">
         {images.map((img, idx) => (
           <button
             key={idx}
@@ -93,10 +92,11 @@ export default function GalleryGrid() {
             className="focus:outline-none rounded-lg overflow-hidden shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl"
             aria-label={`사진 ${idx + 1} 보기`}
           >
+            {/* 정사각형 유지 및 object-cover */}
             <img
               src={img}
               alt={`사진 ${idx + 1}`}
-              className="w-full h-48 object-cover"
+              className="w-full aspect-square object-cover"
               loading="lazy"
             />
           </button>
