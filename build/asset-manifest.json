@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/siho-1st-birthday/static/css/main.e5ad0b10.css",
-    "main.js": "/siho-1st-birthday/static/js/main.ec5ccb7d.js",
+    "main.css": "/siho-1st-birthday/static/css/main.b4f8cfe7.css",
+    "main.js": "/siho-1st-birthday/static/js/main.1bf4c68d.js",
     "static/js/453.35d50094.chunk.js": "/siho-1st-birthday/static/js/453.35d50094.chunk.js",
+    "static/media/photo7.jpg": "/siho-1st-birthday/static/media/photo7.acc54d6d333f06f9ae2a.jpg",
+    "static/media/photo9.jpg": "/siho-1st-birthday/static/media/photo9.4b9576952d6cb3594bea.jpg",
+    "static/media/photo8.jpg": "/siho-1st-birthday/static/media/photo8.9f09a1d21a02ed559547.jpg",
+    "static/media/photo3.jpg": "/siho-1st-birthday/static/media/photo3.3a6502653f9a3ccbb1bb.jpg",
+    "static/media/photo5.jpg": "/siho-1st-birthday/static/media/photo5.da2114c861547b69822d.jpg",
+    "static/media/photo4.jpg": "/siho-1st-birthday/static/media/photo4.3de2ec73ac3b570e21fa.jpg",
+    "static/media/photo2.jpg": "/siho-1st-birthday/static/media/photo2.a25dd7fc364e9d1a62ae.jpg",
+    "static/media/photo6.jpg": "/siho-1st-birthday/static/media/photo6.e2aedb9399e27bb7d77b.jpg",
+    "static/media/photo1.jpg": "/siho-1st-birthday/static/media/photo1.657e9c148ee40c9f1f3b.jpg",
     "index.html": "/siho-1st-birthday/index.html",
-    "main.e5ad0b10.css.map": "/siho-1st-birthday/static/css/main.e5ad0b10.css.map",
-    "main.ec5ccb7d.js.map": "/siho-1st-birthday/static/js/main.ec5ccb7d.js.map",
+    "main.b4f8cfe7.css.map": "/siho-1st-birthday/static/css/main.b4f8cfe7.css.map",
+    "main.1bf4c68d.js.map": "/siho-1st-birthday/static/js/main.1bf4c68d.js.map",
     "453.35d50094.chunk.js.map": "/siho-1st-birthday/static/js/453.35d50094.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5ad0b10.css",
-    "static/js/main.ec5ccb7d.js"
+    "static/css/main.b4f8cfe7.css",
+    "static/js/main.1bf4c68d.js"
   ]
 }
